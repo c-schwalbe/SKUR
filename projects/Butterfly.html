@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="../css/transition.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/slider.css">
+
+    <title>Butterfly House</title>
+
+    <script src="../js/nav.js" defer></script>
+    <script src="../js/tranistion.js"></script>
+    <script src="../js/slider.js" defer></script>
+    <script src="../js/year.js" defer></script>
+    
+</head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-50E56W7ZN3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-50E56W7ZN3');
+</script>
+
+<body>
+  <header class="primary-header flex">
+
+    <div data-visible="false" class="logo flex">
+        <a class="logo-text light link-fdr" href="../index.html">skʉːɾ</a>
+    </div>
+
+    <button class="menu-button flex light" aria-controls="primary-navigation" aria-expanded="false">
+        <span class="sr-only">Menu</span>
+        <svg class="hamburger" viewBox="0 0 100 80" width="1.6rem">
+            <rect class="line top"
+                  width="100" height="5"
+                  x="0" y="5">
+            </rect>
+            <rect class="line middle"
+                  width="100" height="5"
+                  x="0" y="40">
+            </rect>
+            <rect class="line bottom"
+                  width="100" height="5"
+                  x="0" y="73">
+            </rect>
+        </svg>
+    </button>
+
+    <nav aria-label="primary menu">
+        <div id="primary-navigation" data-visible="false" class="primary-navigation flex">
+
+            <div class="nav-container flex-col">
+                
+                <ul class="flex">
+                    <li class="active">
+                        <a class="link-fdr highlighter" href="../index.html">Home</a>
+                    </li>
+                    <li>
+                        <a class="link-fdr highlighter" href="../about.html">About</a>
+                    </li>
+                    <!-- <li>
+                        <a class="link-fdr" href="portfoloi.html">
+                            <span aria-hidden="true">02</span>Portfolio
+                        </a>
+                    </li> -->
+                    <li>
+                        <a class="link-fdr highlighter" href="../contact.html">Contact</a>
+                    </li>
+                </ul>
+
+                <div class="social-icons flex">
+                    <img class="social-icons highlighter" src="../img/icons/logo-instagram.svg">
+                    <img class="social-icons highlighter" src="../img/icons/logo-youtube.svg">
+                    <img class="social-icons highlighter" src="../img/icons/logo-linkedin.svg">
+                    <img class="social-icons highlighter" src="../img/icons/logo-facebook.svg">
+                </div>
+
+            </div>
+
+            <div class="nav-info flex">
+                <div class="ft-copy"><span>© skur</span> <span class="yrspan"></span></div> 
+                <div class="ft-privacy"><p class="highlighter">Privacy Policy</p></div>
+            </div>
+
+            <div class="logo-big">
+                <a class="link-fdr sk-yellow" href="index.html">skʉːɾ</a>
+            </div>
+                
+        </div>
+    </nav>
+
+</header>
+
+  <!-- fade transition element -->
+  <div id="transition-bg" class="transition-bg transition-1 is-active"></div>
+
+  <!-- image slider -->
+  <div class="slider">
+      <div class="carousel">
+
+        <button type="button" class="carousel_btn jsPrev" aria-label="Previous slide">
+          <img src="../img/left.svg" alt="">
+        </button>
+    
+        <div class="carousel_track-container">
+          <ul class="carousel_track">
+
+            <li class="carousel_slide is-selected">
+              <div class="carousel_image">
+                <img src="../img/portfolio/butterflyHouse/butterfly01.jpg" alt="" role="presentation">> 
+              </div>
+              <!-- <h2 class="carousel_title"></h2> -->
+            </li>
+
+            <li class="carousel_slide">
+              <div class="carousel_image">
+                <img src="../img/portfolio/butterflyHouse/butterfly02.jpg" alt="" role="presentation">
+              </div>
+              <!-- <h2 class="carousel_title"></h2> -->
+            </li>
+
+            <li class="carousel_slide">
+              <div class="carousel_image">
+                <img src="../img/portfolio/butterflyHouse/butterfly03.jpg" alt="" role="presentation">
+              </div>
+              <!-- <h2 class="carousel_title"></h2> -->
+            </li>
+
+            <li class="carousel_slide">
+              <div class="carousel_image">
+                <img src="../img/portfolio/butterflyHouse/butterfly04.jpg" alt="" role="presentation">
+              </div>
+              <!-- <h2 class="carousel_title"></h2> -->
+            </li>
+
+          </ul>
+        </div>
+    
+        <button type="button" class="carousel_btn jsNext" aria-label="Next slide">
+          <img src="../img/right.svg" alt="">
+        </button>
+
+      </div>
+    </div>
+
+  <!-- project info section -->
+  <div class="project-info">
+    <div class="project-description">
+
+      <h2 class="project-title">Butterfly House House</h2>
+      <p class="project-location">Missoula, Montana</p>
+
+      <p>
+        The Butterfly House offers diverse educational opportunities,
+        featuring adaptable indoor and outdoor classrooms, a greenhouse,
+        expansive educational gardens, a plant clinic, a cutting-edge
+        demonstration kitchen, and a wet lab, alongside conference and
+        administrative spaces. Thoughtful architectural design accounts for
+        seasonal sun exposure and optimal site orientation to maximize natural
+        light while balancing private and public with indoor and outdoor
+        spaces to meet varied educational, experiential, and environmental
+        needs. The Exploration Center features Montana’s first tropical
+        butterfly house. Complemented by the extensive gardens and classrooms,
+        it offers a holistic, hands-on learning experience accessible to
+        people of all generations and backgrounds
+      </p>
+
+      <h2 class="team-title">Team</h2>
+      <ul class="team-list">
+        <li>
+          <h5>ARCHITECT OF RECORD</h5>
+          <p>AE Design</p>
+        </li>
+
+        <li>
+          <p>In collaboration with AE Design, Lucas was part of a lead design team
+            and developed construction documents for this multifaceted facility.
+            Lucas helped manage many engineering disciplines that are involved in
+            a project of this scale and led a crucial role in the completion of
+            this community oriented project.</p>
+        </li>
+      </ul>
+
+    </div>
+  </div>
+
+  <!-- previous next nav section -->
+  <nav class="post-nav">
+    <ul class="links flex">
+      <li class="highlighter">
+        <a id="prev-link" class="prev" href="westside.html">
+          <span>Prev</span><!--
+          --><span class="wide-text">ious Project</span>
+        </a>
+      </li>
+      <li class="highlighter">
+        <a id="all-link" class="all" href="../index.html">
+          <span>All</span><!--
+          --><span class="wide-text"> Projects</span>
+        </a>
+      </li>
+      <li class="highlighter">
+        <a id="next-link" class="next" href="bellevue.html">
+          <span>Next</span><!--
+          --><span class="wide-text"> Project</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <footer>
+    <div class="footer-container flex">
+
+      <div class="legal flex">
+        <div class="ft-copy"><span>© skur</span> <span class="yrspan"></span></div> 
+        <div class="ft-rights"><span>All rights reserved</span></div> 
+        <div class="ft-privacy"><span class="highlighter">Privacy Policy</span></div> 
+      </div>
+      
+      <div class="social-icons flex">
+        <img class="social-icons highlighter" src="../img/icons/logo-instagram.svg">
+        <img class="social-icons highlighter" src="../img/icons/logo-youtube.svg">
+        <img class="social-icons highlighter" src="../img/icons/logo-linkedin.svg">
+        <img class="social-icons highlighter" src="../img/icons/logo-facebook.svg">
+      </div>
+
+    </div>
+</footer>
+
+</body>
